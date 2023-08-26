@@ -1,4 +1,4 @@
-module center_server
+module github.com/aztecqt/center_server
 
 go 1.21
 
