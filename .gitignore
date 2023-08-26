@@ -1,0 +1,4 @@
+profiles/
+*.bat
+*.exe
+*.sh
