@@ -8,7 +8,6 @@
 package csclient
 
 import (
-	"center_server/server/stratergys"
 	"encoding/json"
 	"fmt"
 	"net"
@@ -17,6 +16,8 @@ import (
 	"strings"
 	"syscall"
 	"time"
+
+	"github.com/aztecqt/center_server/server/stratergys"
 
 	"github.com/aztecqt/dagger/stratergy"
 	"github.com/aztecqt/dagger/util/logger"

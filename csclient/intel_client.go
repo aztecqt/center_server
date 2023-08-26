@@ -8,11 +8,11 @@
 package csclient
 
 import (
-	"center_server/server/intel"
 	"encoding/json"
 	"fmt"
 	"net/http"
 
+	"github.com/aztecqt/center_server/server/intel"
 	"github.com/aztecqt/dagger/util/logger"
 	"github.com/aztecqt/dagger/util/network"
 )

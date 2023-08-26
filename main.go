@@ -11,10 +11,11 @@
 package main
 
 import (
-	"center_server/server"
 	"fmt"
 	"os"
 	"time"
+
+	"github.com/aztecqt/center_server/server"
 
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/logger"

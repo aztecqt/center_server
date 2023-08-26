@@ -13,12 +13,13 @@
 package intel
 
 import (
-	"center_server/dingbot"
-	"center_server/server/web"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
+
+	"github.com/aztecqt/center_server/dingbot"
+	"github.com/aztecqt/center_server/server/web"
 
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/dingtalk"

@@ -8,9 +8,10 @@
 package quantevent
 
 import (
-	"center_server/server/stratergys"
 	"fmt"
 	"net/http"
+
+	"github.com/aztecqt/center_server/server/stratergys"
 
 	"github.com/aztecqt/dagger/util/logger"
 	"github.com/aztecqt/dagger/util/network"

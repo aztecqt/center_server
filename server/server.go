@@ -10,14 +10,13 @@
 package server
 
 import (
-	"center_server/server/activestatus"
-	"center_server/server/antntf"
-	"center_server/server/file"
-	"center_server/server/intel"
-	"center_server/server/quantevent"
-	"center_server/server/stratergys"
-	"center_server/server/web"
-
+	"github.com/aztecqt/center_server/server/activestatus"
+	"github.com/aztecqt/center_server/server/antntf"
+	"github.com/aztecqt/center_server/server/file"
+	"github.com/aztecqt/center_server/server/intel"
+	"github.com/aztecqt/center_server/server/quantevent"
+	"github.com/aztecqt/center_server/server/stratergys"
+	"github.com/aztecqt/center_server/server/web"
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/dingtalk"
 )

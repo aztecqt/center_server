@@ -8,7 +8,6 @@
 package antntf
 
 import (
-	"center_server/server/web"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -19,12 +18,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/emirpasic/gods/sets/hashset"
-
+	"github.com/aztecqt/center_server/server/web"
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/dingtalk"
 	"github.com/aztecqt/dagger/util/logger"
 	"github.com/aztecqt/dagger/util/mathtools"
+	"github.com/emirpasic/gods/sets/hashset"
 )
 
 const FreqCalculateDuration = time.Minute //计算发送频率的时间间隔（提示用）

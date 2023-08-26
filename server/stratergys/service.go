@@ -12,8 +12,6 @@ package stratergys
 
 import (
 	"bufio"
-	"center_server/dingbot"
-	"center_server/server/web"
 	"encoding/json"
 	"fmt"
 	"net"
@@ -22,6 +20,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/aztecqt/center_server/dingbot"
+	"github.com/aztecqt/center_server/server/web"
 
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/logger"

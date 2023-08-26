@@ -8,11 +8,12 @@
 package quantevent
 
 import (
-	"center_server/server/stratergys"
-	"center_server/server/web"
 	"encoding/json"
 	"io"
 	"net/http"
+
+	"github.com/aztecqt/center_server/server/stratergys"
+	"github.com/aztecqt/center_server/server/web"
 
 	"github.com/aztecqt/dagger/util"
 	"github.com/aztecqt/dagger/util/logger"
