@@ -1,0 +1,7 @@
+profiles/
+records/
+log/
+*.log
+*.bat
+*.exe
+*.sh
